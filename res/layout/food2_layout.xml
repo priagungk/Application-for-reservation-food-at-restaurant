@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="175dp"
+            android:layout_y="18dp"
+            android:text="Menu Pizza"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="56dp"
+            android:layout_y="652dp"
+            android:src="@drawable/tuna_melt" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="54dp"
+            android:layout_y="480dp"
+            android:src="@drawable/shrimp_kress" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="123dp"
+            android:src="@drawable/super_supreme" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="53dp"
+            android:layout_y="305dp"
+            android:src="@drawable/olive_mushroom" />
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="60dp"
+            android:layout_x="218dp"
+            android:layout_y="303dp"
+            >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:text="Jamur berpadu rempah gurih dengan minyak zaitun"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="54dp"
+            android:layout_x="220dp"
+            android:layout_y="119dp"
+           >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:text="Pepperoni sapi, daging sapi asap, daging sapi cincang, burger sapi, jamur, bawang, paprika merah dan paprika hijau"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="52dp"
+            android:layout_x="217dp"
+            android:layout_y="481dp"
+           >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:text="Udang tepung, crabstick, baso ayam, saus asam-manis-pedas, kremes gurih renyah"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="121dp"
+            android:layout_x="220dp"
+            android:layout_y="655dp"
+            >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:text="Irisan daging ikan tuna, butiran jagung, saus mayonnaise, Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="46dp"
+            android:layout_y="92dp"
+            android:text="Super Supreme"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="44dp"
+            android:layout_y="271dp"
+            android:text="Olive Mushroom Tuscani"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="49dp"
+            android:layout_y="451dp"
+            android:text="Shrimp Kress"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="54dp"
+            android:layout_y="621dp"
+            android:text="Tuna Melt"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="99dp"
+            android:layout_x="223dp"
+            android:layout_y="175dp" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga :"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:textColor="#cfff02"
+                android:text="original pizza jumbo  : Rp 85.000-" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_above="@+id/checkBox1"
+                android:layout_alignParentLeft="true"
+                android:textColor="#00ff00"
+                android:text="original pizza regular : Rp 55.000,-" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/checkBox1"
+                android:textColor="#00ffd2"
+                android:text="stuffed crust regular  : Rp 72.000,-" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="99dp"
+            android:layout_x="223dp"
+            android:layout_y="365dp" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga :"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox03"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="original pizza jumbo : Rp 85.000,-" 
+                android:textColor="#cfff02"/>
+
+            <CheckBox
+                android:id="@+id/CheckBox02"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_above="@+id/CheckBox03"
+                android:layout_alignParentLeft="true"
+                android:textColor="#00ff00"
+                android:text="original pizza reguler : Rp 55.000,-" />
+
+            <CheckBox
+                android:id="@+id/CheckBox01"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/CheckBox03"
+                android:textColor="#00ffd2"
+                android:text="stuffed crust regular 	: Rp 72.000,-" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="99dp"
+            android:layout_x="221dp"
+            android:layout_y="534dp" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga :"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox06"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="original pizza jumbo : Rp 85.000,-"
+                android:textColor="#cfff02" />
+
+            <CheckBox
+                android:id="@+id/CheckBox05"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_above="@+id/CheckBox06"
+                android:layout_alignParentLeft="true"
+                android:text="original pizza reguler : Rp 55.000,-"
+                android:textColor="#00ff00" />
+
+            <CheckBox
+                android:id="@+id/CheckBox04"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/CheckBox06"
+                android:text="stuffed crust regular 	: Rp 72.000,-"
+                android:textColor="#00ffd2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="99dp"
+            android:layout_x="220dp"
+            android:layout_y="708dp" >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga :"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/CheckBox09"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="original pizza jumbo : Rp 85.000,-"
+                android:textColor="#cfff02" />
+
+            <CheckBox
+                android:id="@+id/CheckBox08"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_above="@+id/CheckBox09"
+                android:layout_alignParentLeft="true"
+                android:text="original pizza reguler : Rp 55.000,-"
+                android:textColor="#00ff00" />
+
+            <CheckBox
+                android:id="@+id/CheckBox07"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/CheckBox09"
+                android:text="stuffed crust regular 	: Rp 72.000,-"
+                android:textColor="#00ffd2" />
+        </RelativeLayout>
+
+</AbsoluteLayout>

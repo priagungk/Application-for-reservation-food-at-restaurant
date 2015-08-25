@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="535dp"
+        android:layout_height="100dp"
+        android:layout_x="43dp"
+        android:layout_y="68dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="241dp"
+        android:layout_height="87dp"
+        android:layout_x="32dp"
+        android:layout_y="631dp"
+        android:background="#FFFFFF"
+        android:text="Sign In"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="284dp"
+        android:layout_height="86dp"
+        android:layout_x="289dp"
+        android:layout_y="631dp"
+        android:background="#FFFFFF"
+        android:text="Register"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_x="208dp"
+        android:layout_y="294dp"
+        android:fontFamily="sans-serif"
+        android:text="Welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="446dp"
+        android:text="Please Sign In or Register"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+
+    >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="125dp"
+            android:layout_y="18dp"
+            android:text="Menu Rekomendasi"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="72dp"
+            android:layout_x="218dp"
+            android:layout_y="303dp"
+            >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:text="Daging ayam berpadu dengan saus oriental
+info allergen : -
+ketersediaan : tersedia
+lama pembuatan : ± 10 menit"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="54dp"
+            android:layout_x="220dp"
+            android:layout_y="119dp"
+         >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:text="Ditumis, daging sapi / ayam bumbu lada hitam. saus lada hitam, acar segar
+info allergen : -
+ketersediaan : tersedia
+lama pembuatan : ± 15 menit"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="70dp"
+            android:layout_x="217dp"
+            android:layout_y="481dp"
+          >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:text="Nasi spesial dengan lapisan omelet dan sosis
+info allergen : telur
+ketersediaan : jam 7-10 (sarapan)
+lama pembuatan : ± 10 menit"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="344dp"
+            android:layout_height="89dp"
+            android:layout_x="220dp"
+            android:layout_y="655dp"
+             >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:text="Daging sapi cincang dilumuri saus keju, dipadu saus jamur
+info allergen : -
+ketersediaan : tersedia
+lama pembuatan : ± 20 menit
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="46dp"
+            android:layout_y="92dp"
+            android:text="Black Pepper Beef / Chicken Fettuccine"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="44dp"
+            android:layout_y="271dp"
+            android:text="Oriental Chicken"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="49dp"
+            android:layout_y="451dp"
+            android:text="Rice Omelette Platter"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="54dp"
+            android:layout_y="621dp"
+            android:text="Beef Melt Mushroom Sauce"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="220dp"
+            android:layout_y="199dp" >
+
+            <ToggleButton
+                android:id="@+id/blackpapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView10"
+                android:text="ToggleButton"
+                android:textColor="#FFFFFF"
+                android:textOff="select"
+                android:textOn="cancel" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 34.545,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="222dp"
+            android:layout_y="386dp" >
+
+            <ToggleButton
+                android:id="@+id/orientalchicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView07"
+                android:text="ToggleButton"
+                android:textColor="#FFFFFF"
+                android:textOff="select"
+                android:textOn="cancel" />
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 28.182,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="184dp"
+            android:layout_height="124dp"
+            android:layout_x="33dp"
+            android:layout_y="125dp"
+            android:src="@drawable/black_pepper_beef" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="175dp"
+            android:layout_height="123dp"
+            android:layout_x="33dp"
+            android:layout_y="307dp"
+            android:src="@drawable/oriental_chicken" />
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="220dp"
+            android:layout_y="552dp" >
+
+            <ToggleButton
+                android:id="@+id/riceomelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView08"
+                android:text="ToggleButton"
+                android:textColor="#FFFFFF"
+                android:textOff="select"
+                android:textOn="cancel" />
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 28.182,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="164dp"
+            android:layout_height="126dp"
+            android:layout_x="41dp"
+            android:layout_y="480dp"
+            android:src="@drawable/rice_omelette" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="163dp"
+            android:layout_height="130dp"
+            android:layout_x="45dp"
+            android:layout_y="652dp"
+            android:src="@drawable/beef_melt_mushroom_sauce" />
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="218dp"
+            android:layout_y="747dp" >
+
+            <ToggleButton
+                android:id="@+id/beefmeet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView09"
+                android:text="ToggleButton"
+                android:textColor="#FFFFFF"
+                android:textOff="select"
+                android:textOn="cancel" />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 70.182,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+</AbsoluteLayout>

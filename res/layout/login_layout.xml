@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg2">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="220dp"
+        android:ems="10"
+        android:text="username"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="300dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textColor="#FFFFFF" 
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="292dp"
+        android:layout_height="70dp"
+        android:layout_x="141dp"
+        android:layout_y="416dp"
+        android:background="#FFFFFF"
+        android:text="Login"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="218dp"
+        android:layout_y="0dp"
+        android:text="Sign In"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

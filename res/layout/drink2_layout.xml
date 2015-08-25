@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="238dp"
+            android:layout_y="18dp"
+            android:text="Dessert"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="161dp"
+            android:layout_height="161dp"
+            android:layout_x="42dp"
+            android:layout_y="625dp"
+            android:src="@drawable/garlic" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="139dp"
+            android:layout_height="149dp"
+            android:layout_x="48dp"
+            android:layout_y="450dp"
+            android:src="@drawable/hotbread" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="43dp"
+            android:layout_y="250dp"
+            android:text="Banana Split"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="42dp"
+            android:layout_y="426dp"
+            android:text="Hot Bread Pudding Chocolate"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="39dp"
+            android:layout_y="595dp"
+            android:text="Garlic Bread"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="46dp"
+            android:layout_y="82dp"
+            android:text="Puff Pastry Mushroom Cream Soup"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <FrameLayout
+            android:layout_width="353dp"
+            android:layout_height="93dp"
+            android:layout_x="213dp"
+            android:layout_y="111dp"
+             >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_x="213dp"
+                android:layout_y="112dp"
+                android:text="Sup dengan pinggiran roti renyah dengan krim jamur gurih
+info allergen : -
+ketersediaan : tersedia(santap di restoran)
+lama pembuatan :  ± 10 menit
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="353dp"
+            android:layout_height="91dp"
+            android:layout_x="211dp"
+            android:layout_y="278dp"
+            >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:layout_x="213dp"
+                android:layout_y="112dp"
+                android:text="Empat scoop es krim cokelat, vanilla, stroberi, potongan pisang segar, taburan biskuit.
+info allergen : -
+ketersediaan : tersedia
+lama pembuatan :  ± 10 menit
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="218dp"
+            android:layout_y="205dp" >
+
+            <ToggleButton
+                android:id="@+id/blackpapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView04"
+                android:text="ToggleButton"
+                android:textOff="select"
+                android:textOn="cancel" 
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 19.091,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="353dp"
+            android:layout_height="74dp"
+            android:layout_x="211dp"
+            android:layout_y="455dp"
+            >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="346dp"
+                android:layout_height="match_parent"
+                android:text="Roti pudding panas rasa coklat
+info allergen : -
+ketersediaan : tersedia 
+lama pembuatan :  ± 10 menit"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="353dp"
+            android:layout_height="96dp"
+            android:layout_x="205dp"
+            android:layout_y="627dp"
+          >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="346dp"
+                android:layout_height="86dp"
+                android:layout_x="213dp"
+                android:layout_y="112dp"
+                android:text="Roti bawang yang dapat disantap dengan menu utama
+info allergen : -
+ketersediaan : tersedia
+lama pembuatan :  ± 5 menit
+"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="217dp"
+            android:layout_y="525dp" >
+
+            <ToggleButton
+                android:id="@+id/honey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView08"
+                android:text="ToggleButton"
+                android:textOff="select"
+                android:textOn="cancel"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 19.091,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="220dp"
+            android:layout_y="374dp" >
+
+            <ToggleButton
+                android:id="@+id/mixberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView06"
+                android:text="ToggleButton"
+                android:textColor="#FFFFFF"
+                android:textOff="select"
+                android:textOn="cancel" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 23.636,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:layout_x="218dp"
+            android:layout_y="727dp" >
+
+            <ToggleButton
+                android:id="@+id/santino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/TextView10"
+                android:text="ToggleButton"
+                android:textColor="#FFFFFF"
+                android:textOff="select"
+                android:textOn="cancel" />
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Harga : Rp 14.545,-"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="154dp"
+            android:layout_height="135dp"
+            android:layout_x="47dp"
+            android:layout_y="108dp"
+            android:src="@drawable/puff" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="139dp"
+            android:layout_height="154dp"
+            android:layout_x="48dp"
+            android:layout_y="277dp"
+            android:src="@drawable/banana" />
+
+</AbsoluteLayout>

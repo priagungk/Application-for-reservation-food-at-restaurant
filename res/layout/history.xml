@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="262dp"
+        android:layout_height="63dp"
+        android:layout_x="166dp"
+        android:layout_y="75dp"
+        android:text="Order History"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_x="44dp"
+        android:layout_y="133dp"
+        android:text="Tgl Order"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="97dp"
+        android:layout_height="63dp"
+        android:layout_x="467dp"
+        android:layout_y="126dp"
+        android:text="Status"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_x="216dp"
+        android:layout_y="132dp"
+        android:text="Order"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_x="48dp"
+        android:layout_y="189dp"
+        android:text="10 Nov 2013"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_x="201dp"
+        android:layout_y="188dp"
+        android:text="Blackpapper 1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_x="200dp"
+        android:layout_y="225dp"
+        android:text="Papaya Juice 1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_x="444dp"
+        android:layout_y="178dp"
+        android:text="Cooking"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

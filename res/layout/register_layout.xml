@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg2">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_x="64dp"
+        android:layout_y="540dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Alamat Lengkap"
+        android:textColor="#FFFFFF" 
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="460dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Telepon"
+        android:textColor="#FFFFFF" 
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="380dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="E-mail"
+        android:textColor="#FFFFFF" 
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="300dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        android:textColor="#FFFFFF" 
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="140dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nama Lengkap"
+        android:textColor="#FFFFFF" 
+        android:textSize="40dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="220dp"
+        android:ems="10"
+        android:text="username"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="292dp"
+        android:layout_height="70dp"
+        android:layout_x="146dp"
+        android:layout_y="702dp"
+        android:background="#FFFFFF"
+        android:text="Register"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="178dp"
+        android:layout_y="5dp"
+        android:text="REGISTER"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
